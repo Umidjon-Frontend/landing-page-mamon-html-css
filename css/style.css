@@ -16,10 +16,89 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+/* container */
+.container{
+    width: 100%;
+    max-width: 1181px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 /* header */
+.header{
+    width: 100%;
+    height: 58px;
+    margin-top: 53px;
+}
+.header-wrapper{
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-brand-text{
+    font-size: 24px;
+    margin-left: 25px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    margin-right: 37px;
+}
+.menu-item:last-child{
+    margin-right: 0;
+}
+.menu-item-link{
+    font-size: 14px;
+    font-weight: 700;
+}
+.menu-btn{
+    width: 100px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-weight: 700;
+    background-color: var(--main-color);
+    border-radius: 5px;
+    font-size: 14px;
+}
+/* header end */
+
 /* content */
+
+/* content end */
+
 /* services */
+
+/* services end */
+
 /* clients */
+
+/* clients end */
+
 /* team */
+
+/* team end */
+
 /* footer */
+
+/* footer end */
+
+
+/* MEDIA QUERY */
