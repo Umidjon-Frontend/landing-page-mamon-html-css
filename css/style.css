@@ -41,7 +41,7 @@ a{
     width: 100%;
     height: 58px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .logo{
@@ -81,7 +81,35 @@ a{
 /* header end */
 
 /* content */
+.content{
+    margin: 117px 0 100px 0;
+}
+.content-wrapper{
 
+}
+.content-title{
+    /* width: 1185px; */
+    font-size: 55px;
+}
+.content-text{
+    width: 100%;
+    max-width: 741px;
+    margin: 35px 0 70px 0;
+    font-size: 32px;
+    line-height: 1.6;
+    color: var(--text2-color);
+}
+.content-btn{
+    width: 235px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-size: 24px;
+}
 /* content end */
 
 /* services */
