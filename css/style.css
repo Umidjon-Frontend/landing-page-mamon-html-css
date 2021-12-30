@@ -176,7 +176,25 @@ a {
 /* services end */
 
 /* clients */
+.clients{
+    margin: 56px 0 104px 0;
+    
+}
+.clients-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.clients-wrapper .img-box{
+    width: 23%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 /* clients end */
 
 /* team */
